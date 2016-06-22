@@ -9,6 +9,7 @@ function InlineEditorController($scope){
 
 	$scope.showtooltip = false;
 	$scope.value = 'Edit me.';
+    $scope.value2 = 'Edit me.';
 
 	// Some helper functions that will be
 	// available in the angular declarations
@@ -25,3 +26,4 @@ function InlineEditorController($scope){
 		e.stopPropagation();
 		$scope.showtooltip = !$scope.showtooltip;
 	}
+}
